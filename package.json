@@ -1,0 +1,20 @@
+{
+  "name": "checksum_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ChecksumTest.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "hash-index": "^3.0.0",
+    "hashids": "^1.1.4",
+    "jssha": "^2.3.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
+  }
+}
