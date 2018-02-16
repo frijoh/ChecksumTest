@@ -4,7 +4,7 @@ const hasher = require("hash-index");
 
 class CheckSumTest {
     private array: string[] = [];
-    private numberOfGuids: number = 10000;
+    private numberOfGuids: number = 15000; /* 300000 is maximum, otherwise Chrome will run out of memory */
 
     public run(): void {
         this.print("Starting");

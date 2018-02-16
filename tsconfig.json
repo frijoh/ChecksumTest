@@ -1,10 +1,7 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
-        "noImplicitAny": true,
-        "module": "commonjs",
         "target": "es6",
-        "jsx": "react",
-        "allowJs": true
+        "module": "commonjs",
+        "sourceMap": false
     }
 }
